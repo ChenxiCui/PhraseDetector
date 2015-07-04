@@ -27,6 +27,12 @@ python -m nltk.download conll2000
 Interacting with the REST Service
 ---------------------------------
 
+First, run the service:
+
+```bash
+bin/www
+```
+
 For clarity, the examples will use HTTPie. To install, run `pip install httpie`.
 
 The chunking endpoint takes one parameter `text` which is a [Penn Treebank](https://en.wikipedia.org/wiki/Treebank) POS-tagged string.

@@ -1,8 +1,15 @@
 #! /usr/bin/env python
 
-from chunker import *
+import os.path
+import sys
+
+root_path = os.path.dirname(os.path.basename(__file__))
+sys.path.append(os.path.abspath(os.path.join(root_path)))
+
 from flask import Flask
 from flask import request
+
+from chunker import *
 
 try:
    import simplejson as json
