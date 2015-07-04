@@ -29,7 +29,7 @@ Interacting with the REST Service
 
 For clarity, the examples will use HTTPie. To install, run `pip install httpie`.
 
-The chunking endpoint takes parameter `text` which is a [Penn Treebank](https://en.wikipedia.org/wiki/Treebank) POS-tagged string.
+The chunking endpoint takes one parameter `text` which is a [Penn Treebank](https://en.wikipedia.org/wiki/Treebank) POS-tagged string.
 
 ```bash
 http GET localhost:5000 text=="I/PRP like/VBP NLP/NNP"
