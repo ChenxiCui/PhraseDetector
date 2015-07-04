@@ -20,7 +20,7 @@ Installation
 
 ```bash
 git clone https://github.com/cuzzo/PhraseDetector.git
-pip install -r pyob/requirements.txt
+pip install -r PhraseDetector/requirements.txt
 python -m nltk.download conll2000
 ```
 
