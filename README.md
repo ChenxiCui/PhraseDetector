@@ -35,7 +35,7 @@ bin/www
 
 For clarity, to interact with the service, I'll use [HTTPie](https://github.com/jkbrzt/httpie). To install, run `pip install httpie`.
 
-The chunking endpoint takes one parameter `text` which is a [Penn Treebank](https://en.wikipedia.org/wiki/Treebank) POS-tagged string.
+The chunking endpoint takes one parameter: `text` which is a [Penn Treebank](https://en.wikipedia.org/wiki/Treebank) POS-tagged string.
 
 ```bash
 http GET localhost:5000 text=="I/PRP like/VBP NLP/NNP"
