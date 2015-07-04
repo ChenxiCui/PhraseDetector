@@ -33,7 +33,7 @@ First, run the service:
 bin/www
 ```
 
-For clarity, the examples will use HTTPie. To install, run `pip install httpie`.
+For clarity, to interact with the service, I'll use [HTTPie](https://github.com/jkbrzt/httpie). To install, run `pip install httpie`.
 
 The chunking endpoint takes one parameter `text` which is a [Penn Treebank](https://en.wikipedia.org/wiki/Treebank) POS-tagged string.
 
