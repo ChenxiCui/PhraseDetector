@@ -6,7 +6,7 @@ Detect phrases in text for fun and profit!
 Usage
 -----
 
-PhraseDetector has one usage: to chunk text into phrases.
+PhraseDetector has one usage: to chunk text into [noun phrases](https://en.wikipedia.org/wiki/Noun_phrase), [verb phrases](https://en.wikipedia.org/wiki/Verb_phrase), and prepositions. Currently, it uses a corpus trained for English Phrase Detection, but any language can be supported by replacing the corpus.
 
 Dependencies
 ------------
